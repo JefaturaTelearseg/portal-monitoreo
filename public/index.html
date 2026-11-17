@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portal de Monitoreo · TeleArseg</title>
+  <link rel="icon" type="image/png" href="img/escudo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <header class="barra">
+    <a class="marca" href="#/resumen" title="Inicio">
+      <img src="img/logo-blanco.png" alt="TeleArseg">
+      <span class="titulo-portal">Portal de Monitoreo</span>
+    </a>
+    <nav id="menu" class="menu"></nav>
+    <div id="usuario" class="usuario"></div>
+  </header>
+  <div id="aviso-local" class="aviso-local" hidden></div>
+  <main id="contenido" class="contenido">
+    <p class="cargando">Cargando información…</p>
+  </main>
+  <div id="modal" class="modal" hidden></div>
+  <div id="toast" class="toast" hidden></div>
+
+  <!-- Solo para revisar en esta computadora: en la página publicada los datos vienen del servidor. -->
+  <script src="app.js"></script>
+</body>
+</html>
